@@ -1,0 +1,98 @@
+.flex-image{
+    @include grid(grid, none);
+    grid-template-columns: 40% 50%;
+}
+
+.style-products{
+    ul{
+        @include grid(grid, flex-end);
+        margin-top: 3.4375rem;
+        margin-bottom: 3.4375rem;
+
+        li{
+        list-style: none;
+        }
+    }
+
+    img{
+        height: 10rem;
+        width: 10rem;
+        margin-block: .9375rem;
+    }
+}
+
+.main-producto{
+        @include grid(grid, center);
+        margin-bottom: 9.375rem;
+
+    img{
+        height: 21.875rem;
+        width: 21.875rem;
+        margin-top: 8.125rem;
+    }
+
+    h2{
+        color: rgb(0, 0, 0);
+        font-family: 'Asap', sans-serif;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 1.25rem;
+    }
+
+    p{
+        color: black;
+        font-family: 'Asap', sans-serif;
+        font-size: 1.0625rem;
+        text-align: center;
+        margin-bottom: 0%
+    }
+    select{
+        &:hover{
+        background-color: #969191;
+        } 
+    }
+    button{
+        background-color: $bg-button; 
+        color: #fff; 
+        border: none; 
+        border-radius: 4px; 
+        width: 12.5rem;
+        font-size: .9375rem;
+        margin-left: 4.6875rem;
+        margin-top: 1.875rem;
+        cursor: pointer;
+        &:hover{
+            background-color: #444242;
+        }
+    }
+}
+
+.select-producto{
+    background-color: #c9c5c5;
+    width: 17.5rem; 
+    padding-left: 1.875rem;
+    border: 2px solid #949494;
+    border-radius: 5px;
+    font-size: 1.25rem;
+}
+
+.div-select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: .625rem;
+    border: .0625rem solid #ccc;
+    border-radius: .3125rem;
+}
+
+select{
+    padding: .3125rem;
+    padding-right: .625rem;
+    border: .0625rem solid #ccc;
+    border-radius: .1875rem;
+}
+
+option{
+    background-color: #f2f2f2;
+}

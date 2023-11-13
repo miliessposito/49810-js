@@ -1,0 +1,153 @@
+
+@media (max-width: 768px){
+    header{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
+    .navbar{
+        gap: .3125rem;
+        justify-content: flex-end;
+
+        li{ 
+            a{
+                font-size: .875rem;
+                text-transform: uppercase;
+                }
+            }
+    }
+    .flex-productos{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .style-titulo{ 
+        h1{
+        font-size: 3.4375rem;
+        }
+    }
+    .contacto-h1{ 
+        h1{
+        margin-bottom: 3.125rem;
+        }
+    }
+    form{
+        padding: 2.5rem;
+        border-radius: 20px;
+        margin-bottom: 3.75rem;
+        margin-left: 3.125rem;
+        margin-right: 3.125rem;
+        button{
+            margin-bottom: 1.25rem;
+            }
+    }
+    .form-holder{
+        margin-bottom: 3.75rem;
+    }
+    .productos{
+        margin-block: .3125rem; 
+        margin-inline: .625rem;
+    }
+    .productos{ 
+        img{
+            width: 6.25rem;
+            height: 6.25rem;
+            margin: 0;
+        }
+    }
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a{ 
+            img{
+                height: 2.5rem;
+                width: 2.5rem;
+                justify-content: center;
+            } 
+        }
+    }
+    .display-none{
+        display: none;
+    }
+    .ancla-mas{
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .parrafo-nosotros{
+        margin-right: .625rem;
+        margin-left: .625rem;
+    
+        p{
+            font-size: .9375rem;
+        }
+    }
+    .texto-ayuda{
+        margin-left: 1.875rem;
+    }
+    .texto-contacto{
+        margin-right: 1.875rem;
+    }
+    .card-display-none{
+        display: none;
+    }
+    .card{
+        img{
+            width: 70%;
+        }
+    }
+    .style-products{
+        ul{
+            li{ 
+                a{
+                    img{
+                        width: 7.5rem;
+                        height: 7.5rem;
+                        }
+                }
+            }
+        }
+    }
+    .main-producto{ 
+        img{
+        width: 15.625rem;
+        height: 15.625rem;
+        margin-left: 1.5625rem;
+        } 
+
+        h2{
+        font-size: 1.875rem;
+        }
+
+        p{
+        font-size: .9375rem;
+        }
+        button{
+            width: 9.375rem;
+            margin-right: 4.6875rem;
+            padding-top: .3125rem;
+            padding-bottom: .3125rem;
+        }
+    }
+
+    .select-producto{
+        background-color: #c9c5c5;
+        width: 12.5rem ; 
+        padding: .3125rem;
+        border: 2px solid #949494;
+        border-radius: 5px;
+        font-size: 1.25rem;
+    }
+    .form-label{
+        font-size: .9375rem;
+    }
+    .logo-footer{
+        img{
+            height: 6.25rem;
+            width: 6.25rem;
+            }
+    }
+}

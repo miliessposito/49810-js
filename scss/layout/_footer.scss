@@ -1,0 +1,91 @@
+.logo-footer{
+    img{
+    height: 9.375rem;
+    width: 9.375rem;
+    }
+}
+
+.texto-contacto{
+    margin-right: 4.375rem;
+
+    h2{
+        color: $color-principal;
+        font-family: 'Asap', sans-serif;
+        font-size: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+
+    p{
+        color: $color-principal;
+        font-family: 'Asap', sans-serif;
+        font-size: 1.0625rem;
+        margin-bottom: 1.25rem;
+    }
+
+    ul{ 
+        li{
+            list-style: none;
+            a{
+                img{
+                    margin-top: .625rem;
+                }
+            }
+        }
+    }
+}
+
+.texto-ayuda{
+    color: $color-principal;
+    font-family: 'Asap', sans-serif;
+    font-size: 0.75rem;
+    margin-left: 4.375rem;
+
+    a:hover{
+        color: #817d7d;
+    }
+
+    h2{
+        color: $color-principal;
+        font-family: 'Asap', sans-serif;
+        font-size: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+
+    ul{
+        li{
+            color: $color-principal;
+            font-family: 'Asap', sans-serif;
+            font-size: 1.0625rem;
+            list-style: none;
+            margin-bottom: 1.25rem; 
+                a{
+                    text-decoration: none;
+                    color: $color-principal;
+                } 
+            }
+        } 
+}
+
+footer{
+    background-color: $bg-principal;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 18.75rem;
+    align-items: center;
+    margin-top: auto;
+}
+
+.footer-images{
+    display: flex;
+    justify-content: space-between;
+
+    li{ 
+        a{ 
+            img{
+                height: 3.125rem;
+                width: 3.125rem;
+            }
+        }
+    }
+}

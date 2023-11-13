@@ -1,0 +1,40 @@
+.banner-index{
+    img{
+        width: 100%;
+        margin-top: 3.125rem;
+        }
+}
+
+.contenedor{
+    @include flex(flex,center,none);
+    align-items: center;
+
+    img{
+        height: 3.75rem;
+        width: 3.75rem;
+        margin-left: 3.4375rem;
+        margin-right: 3.4375rem;
+        margin-bottom: 7.5rem;
+    }
+}
+
+.productos{
+    color: $color-principal;
+    font-family:'Asap', sans-serif;
+    font-size: 1.0625rem;
+    margin: .625rem .625rem .625rem .625rem;
+    text-align: center;
+
+    img{
+    height: 12.5rem;
+    width: 12.5rem;
+    margin-block: 1.25rem;
+    }
+}
+
+.flex-productos{
+    @include flex(flex, center, wrap);
+    margin-left: .3125rem;
+    margin-right: .3125rem;
+    margin-bottom: 7.5rem;
+}

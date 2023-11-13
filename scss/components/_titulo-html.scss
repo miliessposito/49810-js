@@ -1,0 +1,10 @@
+.style-titulo{
+    h1{
+        color: black;
+        text-align: center;
+        font-family:'Asap', sans-serif; 
+        font-size: map-get($font-size, xl);
+        margin-top: 4.6875rem;
+        margin-bottom: 3.75rem;
+    }
+}

@@ -1,0 +1,694 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* fuente que voy a utilizar */
+/* @import url('https://fonts.googleapis.com/css2?family=Asap:wght@300&display=swap'); */
+
+/* nombre de fuente: font-family: 'Asap', sans-serif; */
+
+/* css aplicado a header */
+/* header{
+    background-color: rgb(218, 216, 201);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}   */
+
+
+/* css aplicado a body */
+
+/* body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} */
+
+
+/* css aplicado a la navbar */
+/* .navbar{
+    list-style: none;
+    gap: 3.125rem;
+    display:flex;
+    width: 100%;
+}
+
+.navbar li a{
+text-decoration: none;
+color: black;
+font-family:'Asap', sans-serif;
+font-size: 1.25rem;
+margin-right: 1.875rem;
+} */
+
+/* .navbar-nav a:hover{
+    background-color: #a8a6a6;
+    border-radius: 4px;
+} */
+
+/* .navbar-brand img{
+    width: 40px;
+    height: 2.5rem;
+    display: flex;
+} */
+
+/* css aplicado para banner de index */
+
+/* .banner-index img{
+width: 100%;
+margin-top: 3.125rem;
+} */
+
+/* css aplicado para los titulos de los html */
+
+/* .style-titulo h1{
+    color: black;
+    text-align: center;
+    font-family:'Asap', sans-serif; 
+    font-size: 4.375rem;
+    margin-top: 4.6875rem;
+    margin-bottom: 3.75rem;
+} */
+
+/* css aplicado a index.html */
+
+/* .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor img{
+    height: 3.125rem;
+    width: 3.125rem;
+    margin-left: 3.4375rem;
+    margin-right: 3.4375rem;
+    margin-bottom: 7.5rem;
+} */
+
+/* .productos{
+    color: black;
+    font-family:'Asap', sans-serif;
+    font-size: 1.0625rem;
+    margin: .625rem .625rem .625rem .625rem;
+    text-align: center;
+}
+
+.productos img{
+    height: 12.5rem;
+    width: 12.5rem;
+    margin-block: 1.25rem;
+} */
+
+/* .flex-productos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: .3125rem;
+    margin-right: .3125rem;
+    margin-bottom: 7.5rem;
+    justify-content: center;
+} */
+
+/* css aplicado a producto.html */
+
+/* .flex-image{
+    display: grid;
+    grid-template-columns: 40% 50%;
+} */
+
+/* .style-products ul{
+    display: grid;
+    justify-content: flex-end;
+    margin-top: 3.4375rem;
+    margin-bottom: 3.4375rem;
+}
+
+.style-products img{
+    height: 10rem;
+    width: 10rem;
+    margin-block: .9375rem; 
+}
+
+.style-products ul li{
+    list-style: none;
+} */
+
+/* .main-producto{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 9.375rem;
+}
+
+.main-producto img{
+    height: 21.875rem;
+    width: 21.875rem;
+    margin-top: 8.125rem;
+}
+
+.main-producto h2{
+    color: rgb(0, 0, 0);
+    font-family:'Asap', sans-serif;
+    font-size: 2.5rem; 
+    text-align: center;
+    margin-top: 1.25rem;
+}
+
+.main-producto p{
+    color: black;
+    font-family:'Asap', sans-serif;
+    font-size: 1.0625rem;
+    text-align: center;
+    margin-bottom: 0;
+} */
+
+/* .select-producto{
+    background-color: #c9c5c5;
+    width: 17.5rem; 
+    padding-left: 1.875rem;
+    border: 2px solid #949494;
+    border-radius: 5px;
+    font-size: 1.25rem;
+} */
+/* .main-producto select:hover{
+    background-color: #969191;
+} */
+
+
+/* css aplicado a parrafo de contacto.html y nosotros.html */
+
+/* .style-titulo p{
+    background-color: rgb(170, 166, 166);
+    color: black;
+    font-family:'Asap', sans-serif;
+    font-size: 1.875rem;
+    text-align: center;
+} */
+
+/* .contacto-h1 h1{
+    margin-bottom: .3125rem;
+} */
+
+/* .parrafo-nosotros p{
+    background-color: white;
+    font-size: 1.25rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    color: black;
+    margin-bottom: 1.875rem;
+}
+
+.image-nosotros img{
+    width: 100%;
+    margin-top: 1.25rem;
+    margin-bottom: 5rem  ;
+} */
+/* .form-label{
+    font-weight: bold;
+    font-size: 1.625rem;
+  }
+  .form-text{
+    font-size: .9375rem;
+  }
+  .text-danger{
+    color: red;
+  }
+  .bg-gris{
+    background-color: rgb(218, 216, 201);
+}
+  .form-container{
+    text-align: left;
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+    border-radius: 2%;
+  }
+  .margin-form{
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+    padding-top: 1.25rem;
+  }
+  form button{
+    margin-bottom: 1.25rem;
+  } */
+
+/* css aplicado a shop.html */
+
+/* .card img{
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+} */
+
+/* .cardBody h5{
+    font-size: 1.875rem;
+
+}
+
+.cardBody a{
+    font-size: 1.25rem;
+} */
+/* .div-select select:hover{
+    background-color: #bdbaba;
+} */
+
+/* css aplicado a footer */
+/* 
+.logo-footer img{
+    height: 7.5rem;
+    width: 7.5rem;
+    margin-bottom: 3.75rem;
+} */
+
+/* .texto-contacto{
+    margin-right: 4.375rem;
+}
+
+.texto-contacto h2{
+    color: rgb(0, 0, 0);
+    font-family:'Asap', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.texto-contacto p{
+    color: black;
+    font-family:'Asap', sans-serif;
+    font-size: 1.0625rem;   
+    margin-bottom: 1.25rem;
+}
+
+.texto-contacto ul li{
+    list-style: none;
+} */
+
+/* .texto-ayuda{
+    color: black;
+    font-family:'Asap', sans-serif;
+    font-size: .75rem;
+    margin-left: 4.375rem;
+}
+
+.texto-ayuda a:hover{
+    color: #817d7d;
+}
+
+.texto-ayuda h2{
+    color: black;
+    font-family:'Asap', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.texto-ayuda ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.texto-ayuda ul li{
+    color: black;
+    font-family:'Asap', sans-serif;
+    font-size: 1.0625rem;
+    list-style: none;
+    margin-bottom: 1.25rem;
+} */
+
+/* footer{
+    background-color: rgb(218, 216, 201);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 18.75rem;
+    align-items: center;
+    margin-top: auto;
+} */
+
+/* .footer-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-images li a img{
+    height: 3.125rem;
+    width: 3.125rem;
+} */
+
+/* .div-select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: .625rem;
+    border: .0625rem solid #ccc;
+    border-radius: .3125rem;
+} */
+
+/* select {
+    padding: .3125rem;
+    padding-right: .625rem;
+    border: .0625rem solid #ccc;
+    border-radius: .1875rem;
+}
+
+option {
+    background-color: #f2f2f2;
+} */
+
+/* .form-control{
+    border: 1px solid #817d7d; 
+    border-radius: 5px;
+} */
+
+/* media queries */
+
+/* @media (max-width: 1024px){
+
+    nav{
+        width: 100%;
+    }
+    .navbar{
+        gap: .625rem;
+        justify-content: flex-end;
+    }
+    .navbar li a{
+        font-size: .9375rem;
+        text-transform: uppercase;
+    }
+    .img-tamaño-boot{
+        width: 3.125rem;
+        height: 3.125rem;
+        margin-right: .625rem;
+    }
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor a img{
+        margin-left: 2.1875rem;
+        margin-right: 2.1875rem;
+        width: 3.125rem;
+        height: 3.125rem;
+    } 
+    
+    .flex-productos{
+        flex-direction: row;
+        margin-left: .625rem;
+        margin-right: .625rem;
+        margin-bottom: 6.25rem;
+    }
+    .productos img{
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    .texto-ayuda h2{
+        margin-bottom: 1.5625rem;
+    }
+    .texto-contacto h2{
+        margin-bottom: 1.5625rem;
+    }
+    .cardBody h5{
+        font-size: 1.5625rem;
+    }
+    .cardBody a{
+        padding: 0%;
+    }
+    .form-label{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 768px){
+
+    header{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
+    .navbar{
+        gap: .3125rem;
+        justify-content: flex-end;
+    }
+    .navbar li a{
+        font-size: .875rem;
+        text-transform: uppercase;
+    }
+    .flex-productos{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .style-titulo h1{
+        font-size: 3.4375rem;
+    }
+    .contacto-h1 h1{
+        margin-bottom: 3.125rem;
+    }
+    .form-holder{
+        margin-bottom: 3.75rem;
+    }
+    .productos{
+        margin-block: .3125rem; 
+        margin-inline: .625rem;
+    }
+    .productos img{
+        width: 6.25rem;
+        height: 6.25rem;
+        margin: 0;
+    }
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor a img{
+        height: 2.5rem;
+        width: 2.5rem;
+        justify-content: center;
+    } 
+    .display-none{
+        display: none;
+    }
+    .ancla-mas{
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .parrafo-nosotros p{
+        font-size: .9375rem;
+    }
+    .parrafo-nosotros{
+        margin-right: .625rem;
+        margin-left: .625rem;
+    }
+    .texto-ayuda{
+        margin-left: 1.875rem;
+    }
+    .texto-contacto{
+        margin-right: 1.875rem;
+    }
+    .card-display-none{
+        display: none;
+    }
+    .style-products ul li a img{
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    .main-producto img{
+        width: 15.625rem;
+        height: 15.625rem;
+    }
+    .main-producto h2{
+        font-size: 1.875rem;
+    }
+    .main-producto p{
+        font-size: .9375rem;
+    }
+    .select-producto{
+        background-color: #c9c5c5;
+        width: 12.5rem ; 
+        padding: .3125rem;
+        border: 2px solid #949494;
+        border-radius: 5px;
+        font-size: 1.25rem;
+    }
+    .form-label{
+        font-size: .9375rem;
+    }
+}
+
+@media (max-width: 425px){
+    header{
+        width: 100%;
+    }
+    .logo img{
+        height: 2.1875rem;
+        width: 2.1875rem;
+    }
+    .display-none-425{
+        display: none;
+    }
+    .contenedor a img{
+        width: 1.875rem;
+        height: 1.875rem;
+        margin: 0;
+        margin-bottom: 5.625rem;
+    }
+    .productos p{
+        font-size: .9375rem;
+    }
+    .style-titulo h1{
+        font-size: 2.1875rem;
+    }
+    .parrafo-nosotros{
+        margin-left: .125rem;
+        margin-right: .125rem;
+    }
+    .parrafo-nosotros p{
+        font-size: 1.125rem;
+    }
+    .texto-ayuda{
+        margin-left: .625rem;
+        margin-bottom: 3.125rem;
+        margin-top: 3.125rem;
+    }
+    .texto-ayuda h2{
+        font-size: .9375rem;
+        margin-bottom: 1.5625rem;
+    }
+    .logo-footer img{
+        display: none;
+    }
+    .texto-contacto{
+        margin-right: .625rem;
+        margin-top: 3.125rem;
+    }
+    .texto-contacto h2{
+        font-size: .9375rem;
+        margin-bottom: 1.5625rem;
+    }
+    .footer-images li a img{
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+    .display-none-redes{
+        display: none;
+    }
+    .card img{
+        width: 10.625rem;
+        height: 12.5rem;
+    }
+    .select-none{
+        display: none;
+    }
+    .cardBody h5{
+        font-size: 1.5625rem;
+        padding-left: .3125rem;
+        padding-right: .3125rem;
+    }
+    .style-titulo h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 375px){
+    header{
+        width: 100%;
+        
+    }
+    .navbar li a{
+        font-size: .5rem;
+        text-transform: uppercase;
+    }
+    .style-titulo h1{
+        font-size: 2.5rem;
+        margin-bottom: 1.875rem;
+        margin-top: 2.1875rem;
+    }
+    .display-none-375{
+        display: none;
+    }
+    .productos img{
+        width: 9.375rem;
+        height: 11.25rem;
+    }
+    .productos p{
+        font-size: 1.25rem;
+    }
+    .contenedor a img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .banner-index img{
+        margin-top: 1.25rem;
+    }
+    .texto-contacto p{
+        display: none;
+    }
+    .display-none-contacto{
+        display: none;
+    }
+    .footer-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: .9375rem;
+    }
+    .footer-images li a img{
+        width: 3.125rem;
+        height: 3.125rem;
+        margin-block: .625rem;
+    }
+    .texto-ayuda{
+        margin-left: 1.875rem;
+        margin-top: 4.0625rem;
+    }
+    .texto-ayuda h2{
+        font-size: 1.25rem;
+    }
+    .texto-ayuda ul li a{
+        font-size: 1.25rem;
+    }
+    .form-text{
+        font-size: .75rem;
+    }
+    .contacto-h1 h1{
+        font-size: 2.1875rem;
+    }
+}
+
+@media (max-width: 320px){
+    header{
+        width: 100%;
+    }
+    .ancla-mas{
+        margin-right: .3125rem;
+        margin-left: .3125rem;
+    }
+    .contenedor{
+        margin-top: 3.75rem;
+    }
+    .banner-index img{
+        margin-top: 1.875rem;
+    }
+    .texto-ayuda{
+        margin-left: .625rem;
+    }
+    .texto-ayuda ul li a{
+        font-size: 1.0625rem;
+    }
+    .image-nosotros img{
+        display: none;
+    }
+    .contacto-h1 h1{
+        font-size: 1.875rem;
+    }
+    .form-text{
+        font-size: .625rem;
+    }
+} */

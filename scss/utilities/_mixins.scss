@@ -1,0 +1,10 @@
+@mixin grid($display, $justify){
+    display: $display;
+    justify-content: $justify;
+}
+
+@mixin flex($displayf, $justifyf, $wrapf){
+    display: $displayf;
+    justify-content: $justifyf;
+    flex-wrap: $wrapf;
+}

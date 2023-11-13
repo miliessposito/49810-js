@@ -1,0 +1,167 @@
+
+@media (max-width: 425px){
+    header{
+        width: 100%;
+    }
+    .logo{ 
+        img{
+        height: 2.1875rem;
+        width: 2.1875rem;
+        }
+    }
+    .display-none-425{
+        display: none;
+    }
+    .contenedor{ 
+        a{
+            img{
+                width: 1.875rem;
+                height: 1.875rem;
+                margin: 0;
+                margin-bottom: 5.625rem;
+                }
+            }
+        }
+    .productos{
+        p{
+        font-size: .9375rem;
+        }
+    }
+    .style-titulo{ 
+        h1{
+        font-size: 2.1875rem;
+        }
+    }
+    .ancla-mas{
+        margin-bottom: 56px;
+    }
+    .parrafo-nosotros{
+        margin-left: .125rem;
+        margin-right: .125rem;
+
+        p{
+        font-size: 1.125rem;
+        }
+    }
+    .texto-ayuda{
+        margin-left: .625rem;
+        margin-right: 1.875rem;
+        margin-bottom: 1.5625rem;
+        margin-top: 3.125rem;
+
+        h2{
+        font-size: .9375rem;
+        margin-bottom: 1.5625rem;
+        }
+    }
+    .logo-footer{ 
+        img{
+        display: none;
+        }
+    }
+    .texto-contacto{
+        margin-right: .625rem;
+        margin-bottom: .9375rem;
+
+        h2{
+            font-size: .9375rem;
+            margin-bottom: 1.5625rem;
+        }
+    }
+    form{
+        padding: 1.875rem;
+        border-radius: 20px;
+        margin-bottom: 3.75rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        button{
+            margin-bottom: .375rem;
+            }
+    }
+    .footer-images{ 
+        li{ 
+            a{ 
+                img{
+                width: 3.125rem;
+                height: 3.125rem;
+                }
+            }
+        }
+    }
+    .display-none-redes{
+        display: none;
+    }
+    .card{ 
+        img{
+        width: 10.625rem;
+        height: 12.5rem;
+        }
+    }
+
+    .div-select{
+        select{
+            width: 6.875rem;
+        }
+    }
+    .select-none{
+        display: none;
+    }
+    .cardBody{ 
+        h5{
+        font-size: 1.5625rem;
+        padding-left: .3125rem;
+        padding-right: .3125rem;
+        }
+    }
+    .style-titulo{
+        h1{
+        font-size: 2.5rem;
+        }
+    }
+    .flex-image{
+        @include grid(grid, none);
+        grid-template-columns: 30% 60%;
+    }
+    .style-products{
+        ul{
+            li{
+                a{
+                    img{
+                        width: 4.6875rem;
+                        height: 4.6875rem;
+                    }
+                }
+            }
+        }
+    }
+    .main-producto{
+        margin-left: 3.125rem;
+
+        img{
+            width: 9.375rem;
+            height: 9.375rem;
+            margin-left: 4.0625rem;
+        }
+        h2{
+            font-size: 1.25rem;
+        }
+        p{
+            font-size: .625rem;
+        }
+        button{
+            border-radius: 4px; 
+            width: 8.125rem;
+            font-size: .9375rem;
+            margin-left: 4.6875rem;
+            margin-top: 1.25rem;
+        }
+    }
+    .select-producto{
+            background-color: #c9c5c5;
+            width: 6.25rem; 
+            padding-left: .3125rem;
+            border: 1px solid #949494;
+            border-radius: 3px;
+            font-size: .6875rem;
+    }
+}

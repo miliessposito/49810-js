@@ -1,0 +1,62 @@
+.contacto-h1{ 
+    h1{
+        margin-bottom: .3125rem;
+    }
+}
+
+.form-label{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.form-text{
+    font-size: map-get($font-size, sm);
+}
+
+.text-danger{
+    color: red;
+}
+
+.bg-gris{
+    background-color: $bg-principal;
+}
+
+.form-container{
+    @extend .margin-form;
+    text-align: left;
+    border-radius: 2%;
+    padding-top: 0;
+    
+}
+
+.margin-form{
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+    padding-top: 1.25rem;
+}
+
+form{
+    background-color: $bg-principal;
+    padding: 2.5rem;
+    border-radius: 25px;
+    margin-bottom: 3.75rem;
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+    button{
+        margin-bottom: .3125rem;
+        }
+}
+
+.color-button{
+    background-color: $bg-button;
+    color: white;
+    &:hover{
+        background-color: #817d7d;
+    }
+}
+
+.form-control{
+    border: 1px solid #817d7d; 
+    border-radius: 5px;
+}
+

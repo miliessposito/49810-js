@@ -1,0 +1,26 @@
+.style-titulo{
+    p{
+        background-color: rgb(170, 166, 166);
+        color: $color-principal;
+        font-family:'Asap', sans-serif;
+        font-size: 1.875rem;
+        text-align: center;
+    }
+}
+
+.parrafo-nosotros{
+    p{
+        background-color: white;
+        font-size: map-get($font-size, md);
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+        color: $color-principal;
+        margin-bottom: 1.875rem;
+    }
+}
+
+.image-nosotros{ 
+        @extend .banner-index;
+        margin-top: 3.125rem;
+        margin-bottom: 5rem;
+}
