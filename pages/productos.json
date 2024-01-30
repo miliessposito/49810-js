@@ -1,0 +1,44 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Conjunto Magda",
+            "precio": 7000
+        },
+        {
+            "id": 2,
+            "nombre": "Conjunto Alaska",
+            "precio": 6500
+        },
+        {
+            "id": 3,
+            "nombre": "Conjunto Helena",
+            "precio": 8000
+        },
+        {
+            "id": 4,
+            "nombre": "Conjunto Emily",
+            "precio": 9000
+        },
+        {
+            "id": 5,
+            "nombre": "Conjunto Brisaa",
+            "precio": 5700
+        },
+        {
+            "id": 6,
+            "nombre": "Conjunto Melody",
+            "precio": 6500
+        },
+        {
+            "id": 7,
+            "nombre": "Conjunto Leila",
+            "precio": 9900
+        },
+        {
+            "id": 8,
+            "nombre": "Conjunto Selena",
+            "precio": 7500
+        }
+    ]
+}

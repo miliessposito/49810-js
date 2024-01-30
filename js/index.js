@@ -166,64 +166,66 @@ FIN DE LA PREENTREGA 2 ----------------------------------------------------*/
 
 //PRE ENTREGA 3 -----------------------------------------------------------------
 
-//genero el objeto constructor
-document.addEventListener('DOMContentLoaded', function () {
-    class Producto {
-        constructor(id, nombre, precio) {
-            this.id = id;
-            this.nombre = nombre;
-            this.precio = precio;
+document.addEventListener(`DOMContentLoaded`, function (){
+
+    const carritoDeCompras = [];
+    const SECTION_CONT_SHOP = document.getElementById("sectionContenedorShop");
+    const limitePorProducto = 2;
+
+    function agregarAlCarrito(producto){
+        const cantidadEnElCarrito = carritoDeCompras.filter(function(item){
+            return item.id === producto.id;
+        }).length;
+        if (cantidadEnElCarrito < limitePorProducto){
+            carritoDeCompras.push(producto);
+            console.log(`Producto añadido al carrito: ${producto.nombre} - Precio: $${producto.precio}`);
+            localStorage.setItem(`carrito`, JSON.stringify(carritoDeCompras));
+        
+            Toastify({
+                text: "Producto agregado al carrito",
+                duration: 3000,
+                position: "right",
+                gravity: "top",
+            }).showToast();
+        }  
+        else{
+            Toastify({
+                text: `No podes agregar mas de ${limitePorProducto} unidades de ${producto.nombre} al carrito.`,
+                duration: 3000,
+                position: "right",
+                gravity: "top",
+            }).showToast();
         }
     }
 
-    const producto1 = new Producto(1, "Conjunto Magda", 7000);
-    const producto2 = new Producto(2, "Conjunto Alaska", 6500);
-    const producto3 = new Producto(3, "Conjunto Helena", 8000);
-    const producto4 = new Producto(4, "Conjunto Emily", 9000);
-    const producto5 = new Producto(5, "Conjunto Brisa", 5700);
-    const producto6 = new Producto(6, "Conjunto Melody", 6500);
-    const producto7 = new Producto(7, "Conjunto Leila", 9900);
-    const producto8 = new Producto(8, "Conjunto Selena", 7500);
-
-    //genero un array vacio para almacenar los productos
-    const carritoDeCompras = [];
-
-    //almaceno en una variable lo que llamo de html
-    const SECTION_CONT_SHOP = document.getElementById("sectionContenedorShop");
-
-    // agrego al carrito y almaceno en localstorage
-    function agregarAlCarrito(producto) {
-        carritoDeCompras.push(producto);
-        alert(`${producto.nombre} se ha añadido al carrito.`);
-        console.log(`Producto añadido al carrito: ${producto.nombre} - Precio: $${producto.precio}`);
-        localStorage.setItem('carrito', JSON.stringify(carritoDeCompras));
-    }
-
-    function crearTarjeta(producto) {
+    function crearTarjeta(producto){
         const tarjeta = document.createElement("div");
         tarjeta.classList.add("cardShop");
 
         tarjeta.innerHTML = `
-            <img src="../assets/img/art${producto.id}.jpg" alt="">
-            <div>
-                <h1>${producto.nombre}</h1>
-                <p>$${producto.precio}</p>
-                <button class="agregarAlCarrito">Agregar al carrito</button>
-            </div>
-        `;
+        <img src="../assets/img/art${producto.id}.jpg" alt="">
+        <div>
+            <h1>${producto.nombre}</h1>
+            <p>$${producto.precio}</p>
+            <button class="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+    `;
 
-        // evento boton
-        const botonCarrito = tarjeta.querySelector(".agregarAlCarrito");
-        botonCarrito.addEventListener("click", function () {
-            agregarAlCarrito(producto);
-        });
-
-        return tarjeta;
-    } 
-
-    // bucle foreach
-    [producto1,producto2,producto3,producto4,producto5,producto6,producto7,producto8].forEach(function (producto) {
-        const tarjeta = crearTarjeta(producto);
-        SECTION_CONT_SHOP.appendChild(tarjeta);
+    const botonCarrito = tarjeta.querySelector(".agregarAlCarrito");
+    botonCarrito.addEventListener("click", function (){
+        agregarAlCarrito(producto);
     });
-});
+
+    return tarjeta;
+    }
+
+    fetch(`productos.json`)
+        .then(response => response.json())
+        .then(data => {
+            data.productos.forEach(producto => {
+                const tarjeta = crearTarjeta(producto);
+                SECTION_CONT_SHOP.appendChild(tarjeta);
+            });
+        })
+        .catch(error => console.error("Ha ocurrido un error en la carga de los productos:", error));
+    });
