@@ -69,4 +69,18 @@ document.addEventListener(`DOMContentLoaded`, function (){
             });
         });
     });
+
+    const mensaje = "Log In";
+    const elemento = document.getElementById("tituloLogIn");
+    let indice = 0;
+
+    function mostrarLetra(){
+        elemento.textContent += mensaje[indice];
+        indice++;
+
+    if( indice < mensaje.length){
+        setTimeout(mostrarLetra,100);
+        }
+    }
+    setTimeout(mostrarLetra,1000);
 });

@@ -376,6 +376,9 @@ option {
   flex-wrap: wrap;
   margin-top: 1.875rem;
   margin-bottom: 1.875rem;
+  margin-left: 3.125rem;
+  margin-right: 3.125rem;
+  gap: 2.5rem;
 }
 .cardShop{
   border: 1px solid #ccc;
@@ -411,6 +414,38 @@ option {
 .cardShop button:hover{
   background-color: #817d7d;
 }
+
+/* CSS APLICADO A ENTREGA FINAL */
+
+#tituloLogIn{
+  font-weight: bold;
+}
+
+#btnSesion{
+  margin-bottom: 4.375rem;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-decoration: none;
+  border: 3px solid #c0bebe;
+  border-radius: 5px;
+  color: #c9c5c5;
+  background-color: #444242;
+}
+
+#btnSesion:hover{
+  background-color: #8a8787;
+}
+
+.style-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
 
 @media (max-width: 1024px) {
   nav {
