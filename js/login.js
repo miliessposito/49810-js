@@ -46,6 +46,8 @@ document.addEventListener(`DOMContentLoaded`, function (){
             })
             .then((result) => {
                     if (result.isConfirmed) {
+                        localStorage.setItem(`sesionIniciad`, `true`);
+                        
                         Swal.fire({
                             title: "Listo!",
                             icon: "success",
